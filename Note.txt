@@ -22,14 +22,43 @@ Link:
  ///////////////////////////////////////////////////////////////////////////////
   
   FUNCTION:
-  ************************* digitalRead() returns HIGH or LOW ******************************************
+  ************************* digitalRead(pin #) returns HIGH or LOW *********************************************************
     Example: 
       int val;
       val = digitalRead(7) --> that means: read the digital pin # 7, if digital pin #7 is HIGH, then val is HIGH. And if digital pin # 7 is LOW, then val = LOW.
-    Notes and Warnings
+      
+    IMPORTANT:
+        digitalRead(pin #) is the get function. It means that the function will get the value (HIGH or LOW) at the pin # (parameter of the function)
+      
+    Notes and Warnings:
       If the pin isn’t connected to anything, digitalRead() can return either HIGH or LOW (and this can change randomly).
       The analog input pins can be used as digital pins, referred to as A0, A1, etc. The exception is the Arduino Nano, Pro Mini, and Mini’s A6 and A7 pins, which          
       can only be used as analog inputs.
+      
+      
+  *********************** pinMode(pin #, INPUT, OUTPUT, or INPUT_PULLUP) return Void( means NOTHING) ************************
+   Example:
+      void setup() 
+      {
+        pinMode(13, OUTPUT);    // sets the digital pin 13 as output
+      }
+
+      void loop() 
+      {
+        digitalWrite(13, HIGH); // sets the digital pin 13 on
+        delay(1000);            // waits for a second
+        digitalWrite(13, LOW);  // sets the digital pin 13 off
+        delay(1000);            // waits for a second
+      }
+   IMPORTANT:
+      pinmode() function is the set function. Because a digital pin ( 0-7 in MKR1000) will be input or output, so pinmode() will set input or output for these    
+      pins.
+      
+   Notes and Warnings:
+      The analog input pins can be used as digital pins, referred to as A0, A1, etc.
+      
+      
+    
     
   
   

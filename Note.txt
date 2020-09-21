@@ -13,10 +13,20 @@ Most Arduinos have an on-board LED you can control. On the UNO, MEGA and ZERO
  
  Any digital pin can be either an input or an output
  
- for I/O: https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/
+Link:
+ https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/
+ 
+ https://store.arduino.cc/usa/arduino-mkr1000
  
  
  ///////////////////////////////////////////////////////////////////////////////
+  
+  Function:
+  digitalRead() returns HIGH or LOW
+  Example: 
+    int val;
+    val = digitalRead(7) --> that means: read the digital pin # 7, if digital pin #7 is HIGH, then val is HIGH. And if digital pin # 7 is LOW, then val = LOW.
+    
   
   
   

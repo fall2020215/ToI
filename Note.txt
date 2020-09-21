@@ -34,6 +34,9 @@ Link:
     If the pin isn’t connected to anything, digitalRead() can return either HIGH or LOW (and this can change randomly).
     The analog input pins can be used as digital pins, referred to as A0, A1, etc. The exception is the Arduino Nano, Pro Mini, and Mini’s A6 and A7 pins, which         
     can only be used as analog inputs.
+    
+  LINK:
+    https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/
       
       
   *********************** pinMode(pin #, INPUT, OUTPUT, or INPUT_PULLUP) ---> return void( means NOTHING) *****************************
@@ -48,6 +51,9 @@ Link:
       
   Notes and Warnings:
     The analog input pins can be used as digital pins, referred to as A0, A1, etc.
+    
+  LINK:
+    https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/
       
   ************************ digitalWrite(pin #, HIGH or LOW ) ---> return void (means NOTHING) ****************************************
   Example:
@@ -70,6 +76,9 @@ Link:
   Notes and Warnings:
     The analog input pins can be used as digital pins, referred to as A0, A1, etc. The exception is the Arduino Nano, Pro Mini, and Mini’s A6 and A7 pins, which can 
     only be used as analog inputs.
+    
+  LINK: 
+    https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/
 
 
       

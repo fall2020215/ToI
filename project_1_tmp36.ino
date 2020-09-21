@@ -2,7 +2,6 @@
 
 //This sketch is combined from Adafruit TMP36 sensor and TMP36.h library
 //Modified for Hackster.io project for the MKR1000 
-//by Stephen Borsay(Portland, OR, USA)
 //Since Arduino can't https, we need to use Pushingbox API (uses http)to run 
 //the Google Script (uses https). Alternatly use Ivan's SecureWifi encryption
 

@@ -9,6 +9,7 @@ Most Arduinos have an on-board LED you can control. On the UNO, MEGA and ZERO
   //////////////////////////////////////////////////////////////////////////////
  0-7 is digital
  A0-A6 is analog
+ ~ indicates pwm capable pin.
  
  Any digital pin can be either an input or an output
  
